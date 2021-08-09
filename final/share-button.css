@@ -1,0 +1,62 @@
+.button {
+    background-color: #53aee2;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 2px 4px;
+    width: 28px;
+}
+.whatsapp {
+    background-color: rgb(34, 223, 97);
+    border-radius: 50%;
+    visibility: hidden;
+}
+.twitter {
+    background-color: rgb(29, 161, 242);
+    border-radius: 50%;
+    visibility: hidden;
+}
+.facebook {
+    background-color: rgb(29, 104, 242);
+    border-radius: 50%;
+    visibility: hidden;
+}
+.share {
+    background-color: rgb(250, 58, 58);
+    border-radius: 50%;
+}
+
+.share, .whatsapp, .twitter, .facebook :hover{
+    cursor: pointer;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
